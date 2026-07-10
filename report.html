@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report Incident - SIM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Security Incident Mapping (SIM)</h1>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="register.html">Register</a>
+        <a href="login.html">Login</a>
+        <a href="reports.html">Reports</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+
+<h2>Report a Security Incident</h2>
+
+<form>
+
+<label>Full Name</label>
+<input type="text" placeholder="Enter your full name">
+
+<label>Phone Number</label>
+<input type="tel" placeholder="Enter your phone number">
+
+<label>Incident Type</label>
+<select>
+    <option>Select Incident</option>
+    <option>Theft</option>
+    <option>Phone Snatching</option>
+    <option>Assault</option>
+    <option>Burglary</option>
+    <option>Cult-related Violence</option>
+    <option>Sexual Harassment</option>
+    <option>Other</option>
+</select>
+
+<label>Location</label>
+<input type="text" placeholder="Where did it happen?">
+
+<label>Date of Incident</label>
+<input type="date">
+
+<label>Description</label>
+<textarea rows="5" placeholder="Describe what happened"></textarea>
+
+<label>Upload Evidence</label>
+<input type="file">
+
+<br><br>
+
+<button type="submit">Submit Report</button>
+
+</form>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Security Incident Mapping Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
